@@ -2,8 +2,14 @@ import type { Metadata } from "next";
 import "./globals.css";
 
 export const metadata: Metadata = {
+  metadataBase: new URL("https://cjy.kr"),
   title: "조진영 | My First Site",
   description: "Next.js + TypeScript + Tailwind CSS Minimal Project with Contact Form",
+  openGraph: {
+    title: "안녕하세요. 조진영입니다",
+    description: "문의사항남기기",
+    images: ["/스크린샷 2026-09-29 104902.png"],
+  },
   verification: {
     google: "IVZgYAyFNKRXyByVSmt99K_D1-G7c0w1uVdjieo-Ssc",
     other: {
