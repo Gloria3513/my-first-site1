@@ -4,6 +4,12 @@ import "./globals.css";
 export const metadata: Metadata = {
   title: "조진영 | My First Site",
   description: "Next.js + TypeScript + Tailwind CSS Minimal Project with Contact Form",
+  verification: {
+    google: "IVZgYAyFNKRXyByVSmt99K_D1-G7c0w1uVdjieo-Ssc",
+    other: {
+      "naver-site-verification": "bf44966b4e610a2fd6da039cdc4519d5b7c49536",
+    },
+  },
 };
 
 export default function RootLayout({ children }: LayoutProps<"/">) {
